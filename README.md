@@ -5,3 +5,8 @@ a probabilistic data structure (Bloom filter) to check username availability in 
 -	2 hash functions (DJB2 and SDBM)
 -	10,000 preloaded usernames
 -	Edge case handling
+
+Solution Approach:
+-	Two-layer verification (Bloom filter → linear search fallback)
+-	Cached database with CSV persistence
+-	Comprehensive input validation
